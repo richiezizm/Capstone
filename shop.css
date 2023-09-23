@@ -1,0 +1,46 @@
+body {
+    background-color:snow;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#container1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 11.2px;
+    width: fit-content;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+    width: 525px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#container3 {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    width: 525px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.box1 { 
+    border: 3px solid red;
+    justify-content: center;
+}
+
+.box2 { 
+    border: 2px solid greenyellow;
+    justify-content: center;
+}
+
+.box3 { 
+    border: 2px solid blue;
+    justify-content: center;
+}
