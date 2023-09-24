@@ -13,6 +13,16 @@ body {
     padding: 10px;
 }
 
+#container1b {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 12px;
+    width: fit-content;
+    border: 3px solid black;
+    padding: 2px;
+}
+
 #container2 {
     display: flex;
     justify-content: center;
@@ -22,10 +32,28 @@ body {
     padding: 10px;
 }
 
+#container2b {
+    display: flex;
+    justify-content: center;
+    column-gap: 14px;
+    width: 525px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
 #container3 {
     display: flex;
     justify-content: center;
     column-gap: 20px;
+    width: 525px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#container3b {
+    display: flex;
+    justify-content: center;
+    column-gap: 28px;
     width: 525px;
     border: 3px solid black;
     padding: 10px;
