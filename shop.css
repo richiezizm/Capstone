@@ -5,6 +5,7 @@ body {
 
 #container1 {
     display: flex;
+    text-align: center;
     justify-content: center;
     column-gap: 11.2px;
     width: fit-content;
