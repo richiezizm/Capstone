@@ -17,6 +17,8 @@
             however what we <i>can</i> offer are some delicious foods and drinks <br>
             with a splash of gaming/anime inspiration! 
             <br>
+            <br>
+            
             <img src="shopImages/ramengif.gif" height="150" width="175" alt="Ramen">
         </p>
     </h2>
@@ -46,6 +48,9 @@
 
         <div class="box2"><img src="shopImages/dekuEating.jpeg" height="100" width="125" alt="MHA"></div>
     </div>
+
+    <!-- add 'mouse over' effects which switch the images between the food and the characters
+    also add 'mouse over' effect that switches between price and 'add to cart' option-->
 
     <div id="container3">
         <div class="box3">Price: $7.99<br></div>
@@ -110,8 +115,27 @@
         <br>
         Feel free to also reach out with any requests you'd like us to add <br>
         or any old favorites you'd like to see us bring back!
-        
     </h3>
+
+    <h4>Also, while you're here...
+        <br>
+        Would you like to sign up for our weekly newletter?
+        <br>
+        It's free - plus you'll receive exclusive discounts
+        <br>
+        for current and future purchases
+        <br>
+        <br>
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            First Name: <input type="text" name="firstName">
+            <br>
+            Last Name: <input type="text" name="lastName">
+            <br>
+            Email: <input type="text" name="email">
+            <br>
+            <input type="submit" value="Submit">
+            </form>
+    </h4>
     </body>
 
 

@@ -1,9 +1,19 @@
-const menuItem = {
-    "name": this.name,
-    "dishType": this.dishType,
-    "flavor": this.flavor,
-    "price": this.price    
-};
+function validateForm() {
+    let x = document.forms["myForm"]["email"].value;
+    if (x == email) {
+      alert("Thank you!");
+      return true; } 
+        else {
+        alert("Please enter a valid email address");
+      }
+    
+      };
+  
 
-let strawberry = new menuItem("strawberry", "dessert", "strawberry", "5");
-console.log(strawberry);
+  const firstName = "Rich";
+  const lastName = "Senquis";
+  const email = "rsenquis@gmail.com";
+
+  function addItem() {
+        document.getElementById("demo").innerHTML = "Hello World";
+      };

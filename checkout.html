@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>Checkout Page</head>
+    <title>Checkout Page</title>
+    <head>
+        <link rel="stylesheet" href="shop.css">
+        <script src="cap.js"></script>
+    <body>
     <!---link other html pages right under here 
     using <nav>  -->
-        <h2>Thank you for shopping with us! <br>
+        <h2>Thank you for shopping with us!<br>
             Are you ready to check out?
         </h2>
     <br>
-    
+</head>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Email: <input type="text" name="email">
+    <input type="submit" value="Submit">
+    </form>
 
 
 
 
-
+</body>
 </html>
 
 
