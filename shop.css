@@ -5,6 +5,17 @@ body {
     
 }
 
+
+@font-face {
+        font-family: myFont;
+        src:url("bada.TTF");
+    }
+    
+h1 {
+    font-family: myFont;
+}
+
+
 #container1 {
     display: flex;
     text-align: center;
